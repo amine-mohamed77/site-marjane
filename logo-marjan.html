@@ -1,0 +1,277 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+    .logo-container {
+        display: flex;
+    
+    margin-left: 60px; 
+    margin-top: 128px;
+    }
+
+    .logo {
+        position: relative;
+        top: -4px;
+        left: -45px;
+        width: 69px;
+        height: 41px;
+        background-color: #0055A6;
+        border-radius: 30% 30% 10% 10%;
+    }
+
+    .pos-logo {
+        position: relative;
+        right: 51px;
+        top: -8px;
+    }
+
+    .l1, .l2, .s1, .l3, .a1, .a2, .a3, .r1, .r2, .j1, .j2, .j3, .aa1, .aa2, .aa3, .n1, .n2, .n3, .e1, .e2, .e3, .e4, .e5 {
+        position: relative;
+    }
+
+    .l1 {
+        top: 24px;
+        left: 95px;
+        width: 16px;
+        height: 40px;
+        background-color: white;
+        border-radius: 50% 50% 0% 0%;
+    }
+
+    .l2 {
+        top: -16px;
+        left: 66px;
+        width: 16px;
+        height: 40px;
+        background-color: white;
+        border-radius: 50% 50% 0% 0%;
+    }
+
+    .s1 {
+        top: -98px;
+        left: 65px;
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        border-radius: 100%;
+    }
+
+    .l3 {
+        top: -134px;
+        left: 70px;
+        width: 30px;
+        height: 30px;
+        background-color: yellow;
+        border-radius: 100%;
+    }
+
+    .a1 {
+        top: -140px;
+        left: 125px;
+        width: 40px;
+        height: 40px;
+        background-color: #0055A6;
+        border-radius: 100%;
+    }
+
+    .a2 {
+        top: -170px;
+        left: 135px;
+        width: 20px;
+        height: 20px;
+        background-color: white;
+        border-radius: 100%;
+    }
+
+    .a3 {
+        top: -200px;
+        left: 158px;
+        width: 12px;
+        height: 40px;
+        background-color: #0055A6;
+        border-radius: 20% 20% 0% 20%;
+    }
+
+    .r1 {
+        top: -241px;
+        left: 174px;
+        width: 13px;
+        height: 42px;
+        background-color: #0055A6;
+        border-radius: 5% 30% 5% 5%;
+    }
+
+    .r2 {
+        top: -283px;
+        left: 186px;
+        width: 15px;
+        height: 15px;
+        background-color: #0055A6;
+        border-radius: 30% 30% 20% 25%;
+    }
+
+    .j1 {
+        top: -297px;
+        left: 204px;
+        width: 16px;
+        height: 60px;
+        background-color: #0055A6;
+        border-radius: 0% 10% 0% 10%;
+    }
+
+    .j2 {
+        top: -307px;
+    left: 198px;
+    width: 16px;
+    height: 25px;
+    background-color: #0055A6;
+    border-radius: 40% 23% 33% 200%;
+    transform: rotate(45deg);
+    }
+
+    .j3 {
+        top: -404px;
+        left: 200px;
+        width: 20px;
+        height: 20px;
+        background-color:#0055A6;
+        border-radius: 100%;
+    }
+
+    .aa1 {
+        top: -402px;
+        left: 223px;
+        width: 40px;
+        height: 40px;
+        background-color: #0055A6;
+        border-radius: 100%;
+    }
+
+    .aa2 {
+        top: -432px;
+        left: 233px;
+        width: 20px;
+        height: 20px;
+        background-color: white;
+        border-radius: 100%;
+    }
+
+    .aa3 {
+        top: -462px;
+        left: 256px;
+        width: 12px;
+        height: 40px;
+        background-color: #0055A6;
+        border-radius: 20% 20% 0% 20%;
+    }
+
+    .n1 {
+        top: -502px;
+        left: 278px;
+        width: 40px;
+        height: 39px;
+        background-color: #0055A6;
+        border-radius: 100% 100% 30% 30%;
+    }
+
+    .n2 {
+        top: -530px;
+        left: 290px;
+        width: 17px;
+        height: 40px;
+        background-color: white;
+        border-radius: 80% 80% 20% 20%;
+    }
+
+    .n3 {
+        top: -582px;
+        left: 278px;
+        width: 12px;
+        height: 40px;
+        background-color: #0055A6;
+        border-radius: 0% 20% 0% 0%;
+    }
+
+    .e1 {
+        top: -622px;
+        left: 321px;
+        width: 40px;
+        height: 40px;
+        background-color: #0055A6;
+        border-radius: 100%;
+    }
+
+    .e2 {
+        top: -648px;
+        left: 331px;
+        width: 21px;
+        height: 17px;
+        background-color: white;
+        border-radius: 100%;
+    }
+
+    .e3 {
+        top: -671px;
+        left: 336px;
+        width: 12px;
+        height: 10px;
+        background-color: beige;
+        border-radius: 100%;
+    }
+
+    .e4 {
+        top: -670px;
+        left: 345px;
+        width: 16px;
+        height: 6px;
+        background-color: white;
+    }
+
+    .e5 {
+        top: -681px;
+        left: 330px;
+        width: 31px;
+        height: 7px;
+        background-color: #0055A6;
+        border-radius: 0% 50% 0% 0%;
+    }
+</style>
+</head>
+
+<body>
+<div class="logo-container">
+    <div class="logo">
+        <div class="pos-logo">
+            <div class="l1"></div>
+            <div class="l2"></div>
+            <div class="s1"></div>
+            <div class="l3"></div>
+            <div class="a1"></div>
+            <div class="a2"></div>
+            <div class="a3"></div>
+            <div class="r1"></div>
+            <div class="r2"></div>
+            <div class="j1"></div>
+            <div class="j2"></div>
+            <div class="j3"></div>
+            <div class="aa1"></div>
+            <div class="aa2"></div>
+            <div class="aa3"></div>
+            <div class="n1"></div>
+            <div class="n2"></div>
+            <div class="n3"></div>
+            <div class="e1"></div>
+            <div class="e2"></div>
+            <div class="e3"></div>
+            <div class="e4"></div>
+            <div class="e5"></div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
